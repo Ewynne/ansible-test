@@ -1,0 +1,7 @@
+---
+- name: test windows dev slaves
+  hosts: windowsservers
+  roles:
+    - windows
+  tags:
+    - windows

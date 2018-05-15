@@ -1,0 +1,7 @@
+---
+- name: test linux dev slaves
+  hosts: linuxservers
+  roles:
+    - linux
+  tags:
+    - linux
