@@ -1,0 +1,14 @@
+---
+- name: test windows dev slaves
+  hosts: windowsservers
+  roles:
+    - windows
+  tags:
+    - windows
+
+- name: test linux dev slaves
+  hosts: linuxservers
+  roles:
+    - linux
+  tags:
+    - linux

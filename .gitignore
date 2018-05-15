@@ -1,0 +1,6 @@
+*.retry
+.vault_password_file
+.env
+.python-version
+JenkinsInstallers
+JenkinsInstallers/*
