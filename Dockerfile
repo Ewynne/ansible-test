@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM python:3.6
 
 USER root
 
