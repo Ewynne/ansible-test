@@ -3,8 +3,7 @@ FROM python:3.6
 USER root
 
 RUN apt-get update -y \
-&& apt-get -y install sshpass \
-&& apt-get -y install docker-engine
+&& apt-get -y install sshpass
 
 # Define working directory.
 WORKDIR /data
